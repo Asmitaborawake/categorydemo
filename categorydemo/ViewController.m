@@ -16,7 +16,10 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    NSString *stringWithNums = @"ABCDEF 1234560798";
+    NSLog(@"stringWithNums         --> %@",stringWithNums);
+    stringWithNums = [stringWithNums removeNumbersFromString:stringWithNums];
+    NSLog(@"trimmed stringWithNums --> %@",stringWithNums);
 }
 
 

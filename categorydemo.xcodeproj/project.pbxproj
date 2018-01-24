@@ -15,6 +15,7 @@
 		4788CF861FF2211E00126764 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4788CF841FF2211E00126764 /* LaunchScreen.storyboard */; };
 		4788CF911FF2211E00126764 /* categorydemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4788CF901FF2211E00126764 /* categorydemoTests.m */; };
 		4788CF9C1FF2211E00126764 /* categorydemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4788CF9B1FF2211E00126764 /* categorydemoUITests.m */; };
+		4788CFAB1FF2217000126764 /* NSString+RemoveNums.m in Sources */ = {isa = PBXBuildFile; fileRef = 4788CFAA1FF2217000126764 /* NSString+RemoveNums.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4788CF971FF2211E00126764 /* categorydemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = categorydemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4788CF9B1FF2211E00126764 /* categorydemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = categorydemoUITests.m; sourceTree = "<group>"; };
 		4788CF9D1FF2211E00126764 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4788CFA91FF2217000126764 /* NSString+RemoveNums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+RemoveNums.h"; sourceTree = "<group>"; };
+		4788CFAA1FF2217000126764 /* NSString+RemoveNums.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+RemoveNums.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		4788CF6A1FF2211D00126764 = {
 			isa = PBXGroup;
 			children = (
+				4788CFA91FF2217000126764 /* NSString+RemoveNums.h */,
+				4788CFAA1FF2217000126764 /* NSString+RemoveNums.m */,
 				4788CF751FF2211D00126764 /* categorydemo */,
 				4788CF8F1FF2211E00126764 /* categorydemoTests */,
 				4788CF9A1FF2211E00126764 /* categorydemoUITests */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4788CFAB1FF2217000126764 /* NSString+RemoveNums.m in Sources */,
 				4788CF7E1FF2211E00126764 /* ViewController.m in Sources */,
 				4788CF7B1FF2211E00126764 /* AppDelegate.m in Sources */,
 				4788CF781FF2211E00126764 /* main.m in Sources */,
